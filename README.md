@@ -1,4 +1,3 @@
-
 # Chromothripsis
 
 ## Background
@@ -42,10 +41,11 @@ After I left the cells to grow, they looked like this 4 days later:
 ![enter image description here](https://lh3.googleusercontent.com/9h2LJ-pbWhpvcELoV5fr_GJfQGtHwv4oqOXqU090DsscH8ZyBWPccVOYPcQCzOFx4vSmn3Zk9Y_R)
 ![enter image description here](https://lh3.googleusercontent.com/hT-NYq251ckUiFHQad1hKIJeNp6vThJJrPf_B8SlbLfu1n8Jkpcs6PDD_QKb88HQMaJy1bVUUA1w)
 
-
 I then tried a plate using only Lipofectamine and no Cas9 to check to see if there was a difference in visuals. 
+
 ![enter image description here](https://lh3.googleusercontent.com/Q7cDeOqa2WVUcxpb6H11DFihLp6SSlpCuBhZhEVOO6NHVIPFWtsshpbJrGsJjOaXAYLrV0fmB2AI)
 ![enter image description here](https://lh3.googleusercontent.com/E_w6A0Ikj3UWIpiPdUfHC9bCYnvuA8yWhoOcs6waU6gF8rMzlTDAf07JeG8V3GgkczpFjDlhvlSJ)
+
 I could then conclude that the visual difference was due to the Cas9, and not the Lipofectamine.
 
 ### DNA Extraction  
