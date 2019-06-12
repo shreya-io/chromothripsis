@@ -2,7 +2,7 @@
 
 ## Background
 
-A new phenomenon called chromothripsis was discovered by [Stephens et al. in 2011](www.ncbi.nlm.nih.gov/pubmed/21215367), in which chromosomes shatter and are poorly rearranged in a single catastrophic event. Chromothripsis appears to lead to cancer in many cases (88.9% in Acute lymphoblastic leukemia with iAMP21, 100% in ISHH medulloblastoma with mutant TP53, etc.) and challenges the previous theories of slow accumulation of genetic mutations leading to cancer. There are various stimuli that are proposed to cause it, including the formation of micronuclei and radiation. One particular stimulus I explored was telomere instability ([Rode, et al. 2015](onlinelibrary.wiley.com/doi/full/10.1002/ijc.29888)), which has been linked to chromothripsis ([Ernst, et al. 2016](onlinelibrary.wiley.com/doi/full/10.1002/%20ijc.30033)). I created a protocol that leads to telomere crisis and finally, chromothripsis.
+A new phenomenon called chromothripsis was discovered by [Stephens et al. in 2011](https://www.ncbi.nlm.nih.gov/pubmed/21215367), in which chromosomes shatter and are poorly rearranged in a single catastrophic event. Chromothripsis appears to lead to cancer in many cases (88.9% in Acute lymphoblastic leukemia with iAMP21, 100% in ISHH medulloblastoma with mutant TP53, etc.) and challenges the previous theories of slow accumulation of genetic mutations leading to cancer. There are various stimuli that are proposed to cause it, including the formation of micronuclei and radiation. One particular stimulus I explored was telomere instability ([Rode, et al. 2015](https://onlinelibrary.wiley.com/doi/full/10.1002/ijc.29888)), which has been linked to chromothripsis ([Ernst, et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/26856307)). I created a protocol that leads to telomere crisis and finally, chromothripsis.
 ## Experimental Process
 ### Overview
 The protocol to shorten telomeres involved modifying the TREX1 gene, which leads to telomere bridges and further to telomere shortening and ultimately to chromothripsis. The TREX1 modification validation involved Sanger sequencing of the TREX1 gene. The telomere shortening is validated by a method involving the use of restriction enzymes known as Telomere Restriction Fragment (TRF) method. Occurrence of chromothripsis is validated using a low-cost DNA fingerprinting method (Amplified Fragment Length Polymorphism/AFLP) instead of whole genome sequencing.
@@ -21,7 +21,7 @@ Experiments were carried out on A549 cells (human lung carcinoma) which had to b
 
 ### CRISPR/Cas9 Edit
 
-I used CRISPR/Cas9 to edit the TREX1 gene and render it useless ( [Maciejowski, et al. 2016](www.ncbi.nlm.nih.gov/pmc/articles/PMC4687025/)).
+I used CRISPR/Cas9 to edit the TREX1 gene and render it useless ( [Maciejowski, et al. 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687025/)).
 
 Once the cultures had grown enough, I plated them into 6-well plates. 
 
@@ -72,8 +72,8 @@ Regular TREX1 (top) compared to the mix of edited and unedited chromothripsis-ri
 
 Explained by the breakage-fusion-bridge (BFB) cycle, a dicentric chromosome is formed by the fusion of the two unprotected telomeres and the centromeres of the chromosomes. When the chromosomes are pulled to the opposite sides of the cell, an anaphase bridge forms.
 
--   Telomere bridges are very volatile and lead to telomere shortening, as found by [Capper et al. (2007)](www.ncbi.nlm.nih.gov/pmc/articles/PMC1993879/) 
--   TREX1 deletion leads to telomere fusion, as given by [Maciejowski et al. (2015)](www.ncbi.nlm.nih.gov/pmc/articles/PMC4687025/)
+-   Telomere bridges are very volatile and lead to telomere shortening, as found by [Capper et al. (2007)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1993879/) 
+-   TREX1 deletion leads to telomere fusion, as given by [Maciejowski et al. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687025/)
 -   Used subtelomeric primers to amplify the telomere fusions during PCR, and ran the PCR products on a 0.7% agarose gel (gel electrophoresis)
 
 ![enter image description here](https://lh3.googleusercontent.com/Ly0ZZTdjKBSDpfsfOcEtufG-tmDDZwFW5MKVPLgzIvyk9mTfkRICRBPbkqDjn-vAcdxvaRu-JSM-)
@@ -82,7 +82,7 @@ The bands on the 2 control samples are both identical (which is expected). The 1
 
 ### Telomere Shortening Validation
 
-   • Basic protocol from [Sigma Aldrich](www.sigmaaldrich.com/catalog/%20product/roche/12209136001?lang=en%C2%AEion=US) 
+   • Basic protocol from [Sigma Aldrich](https://www.sigmaaldrich.com/catalog/product/roche/12209136001?lang=en&region=US) 
    • Just digested the genomic DNA, leaving out the telomeres to be run on a 0.8% agarose gel
 
 
@@ -97,13 +97,13 @@ The repeated gel showed shorter fragments for the edited compared to the control
 
  - Originally was going to sequence it but then realized it wouldn’t be feasible and the only way to figure out chromothriptic events in that way would be to do whole genome sequencing, which was expensive and more time consuming.
  - After many discussions and researching, DNA fingerprinting was found to be an easier way to verify if two genomes were similar or different
- - [AFLP](www.ncbi.nlm.nih.gov/%20pmc/articles/PMC3513352/) is a tool used in DNA fingerprinting
- - [Original paper](www.ncbi.nlm.nih.gov/pubmed/7501463)
+ - [AFLP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3513352/) is a tool used in DNA fingerprinting
+ - [Original paper](https://www.ncbi.nlm.nih.gov/pubmed/7501463)
 
 Takes advantage of the fact that you can use 2 or more restriction enzymes and cut the DNA at many sites. Selection of the DNA fragments can happen in 2 steps: selective and preselective. Preselective uses adaptors with shorter sequences. Selective adds 3 more bases to the end, which makes it more specific (didn’t do the preselective part of AFLP, went straight to selective).
 
 First gel that was run didn’t work due to the high voltage. I ran the gel again but with a lesser voltage, and there were distinguishable bands. 
 
-
+![enter image description here](https://lh3.googleusercontent.com/Beadw2rqNJi6qw9LNswPqRPZxJJ-hAUYgXt0uV0NxnRfONTcpZ3rDx5zADPtmiKtPOlLj_bYmDOb)
 
 AFLP gel results showed random bands for the edited genes, and the same band pattern for the control.
