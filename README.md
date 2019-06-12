@@ -63,7 +63,9 @@ I extracted the DNA from both the gene edited cells and the regular cells so I c
 ### Gene Modification Validation
 
 I performed PCR to amplify the TREX1 gene in a DNA sample. However, sequence data for the amplified sample showed the PCR ended up amplifying the regular cells (confirmed with sequence data for the regular cells). The sequence data for the non-PCR sample of unedited cells had noise indicating that there was genome rearrangements, however with the mix of different edits and no edits, it was hard to tell where exactly edits occurred. 
+
 ![enter image description here](https://lh3.googleusercontent.com/o2A1bC9q0W04O6_yZto0qVcn3rsoNltHqkvSJx2bW23liwFqEj0ZLYWAnyYtn9P3hC45CUACd7UM)
+
 Regular TREX1 (top) compared to the mix of edited and unedited chromothripsis-ridden cells (bottom)
 
 ### Telomere Fusion Validation
@@ -87,6 +89,7 @@ The bands on the 2 control samples are both identical (which is expected). The 1
 The first time this was tried, the band patterns weren’t clear and there were smears, showing that the genomic DNA digestion didn’t occur completely. The DNA was allowed to digest overnight and the gel was repeated.
 
 The repeated gel showed shorter fragments for the edited compared to the control telomeres, proving that telomere shortening happened.
+
 ![enter image description here](https://lh3.googleusercontent.com/Y2v78CDqAdo7dC5Rz6VxGB5rXm8npnLgJpdmjc80eNEhTppa74akXcE16XF10V1jYDdIZc__L0Da)
 ##### Gel results
 
