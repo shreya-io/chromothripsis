@@ -24,7 +24,7 @@ Once the cultures had grown enough, I plated them into 6-well plates.
 #### Making RNP Complex
 
 ![Alt text](./svgs/RNPformation.svg)
-<img src="./svgs/RNPformation.svg">
+<img src="./svgs/RNPformation.svg>
 
 What is TREX1?
 
