@@ -74,11 +74,33 @@ Explained by the breakage-fusion-bridge (BFB) cycle, a dicentric chromosome is f
 -   TREX1 deletion leads to telomere fusion, as given by [Maciejowski et al. (2015)](www.ncbi.nlm.nih.gov/pmc/articles/PMC4687025/)
 -   Used subtelomeric primers to amplify the telomere fusions during PCR, and ran the PCR products on a 0.7% agarose gel (gel electrophoresis)
 
-![enter image description here](https://lh3.googleusercontent.com/wLotPrIEbp4l-rf6Eayqp9dVImg2T_5PzbNlXBp03fhXmQ1G20WpMKkvWH4JS-MVyw3LK5QmdaeI)
+![enter image description here](https://lh3.googleusercontent.com/Ly0ZZTdjKBSDpfsfOcEtufG-tmDDZwFW5MKVPLgzIvyk9mTfkRICRBPbkqDjn-vAcdxvaRu-JSM-)
 ##### Gel results
 The bands on the 2 control samples are both identical (which is expected). The 12 edited samples have varying bands (some shorter and some the same length as the control) showing the samples which still have DNA in the telomere bridge phase (shorter bands) and the samples which are out of the phase (same length as control).
 
 ### Telomere Shortening Validation
-I used the Telomere Restriction Fragment method for analysis 
+
+   • Basic protocol from [Sigma Aldrich](www.sigmaaldrich.com/catalog/%20product/roche/12209136001?lang=en%C2%AEion=US) 
+   • Just digested the genomic DNA, leaving out the telomeres to be run on a 0.8% agarose gel
+
+
+The first time this was tried, the band patterns weren’t clear and there were smears, showing that the genomic DNA digestion didn’t occur completely. The DNA was allowed to digest overnight and the gel was repeated.
+
+The repeated gel showed shorter fragments for the edited compared to the control telomeres, proving that telomere shortening happened.
+![enter image description here](https://lh3.googleusercontent.com/Y2v78CDqAdo7dC5Rz6VxGB5rXm8npnLgJpdmjc80eNEhTppa74akXcE16XF10V1jYDdIZc__L0Da)
+##### Gel results
 
 ### DNA Fingerprinting Analysis
+
+ - Originally was going to sequence it but then realized it wouldn’t be feasible and the only way to figure out chromothriptic events in that way would be to do whole genome sequencing, which was expensive and more time consuming.
+ - After many discussions and researching, DNA fingerprinting was found to be an easier way to verify if two genomes were similar or different
+ - [AFLP](www.ncbi.nlm.nih.gov/%20pmc/articles/PMC3513352/) is a tool used in DNA fingerprinting
+ - [Original paper](www.ncbi.nlm.nih.gov/pubmed/7501463)
+
+Takes advantage of the fact that you can use 2 or more restriction enzymes and cut the DNA at many sites. Selection of the DNA fragments can happen in 2 steps: selective and preselective. Preselective uses adaptors with shorter sequences. Selective adds 3 more bases to the end, which makes it more specific (didn’t do the preselective part of AFLP, went straight to selective).
+
+First gel that was run didn’t work due to the high voltage. I ran the gel again but with a lesser voltage, and there were distinguishable bands. 
+
+
+
+AFLP gel results showed random bands for the edited genes, and the same band pattern for the control.
