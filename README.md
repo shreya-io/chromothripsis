@@ -107,3 +107,11 @@ First gel that was run didn’t work due to the high voltage. I ran the gel agai
 ![enter image description here](https://lh3.googleusercontent.com/Beadw2rqNJi6qw9LNswPqRPZxJJ-hAUYgXt0uV0NxnRfONTcpZ3rDx5zADPtmiKtPOlLj_bYmDOb)
 
 AFLP gel results showed random bands for the edited genes, and the same band pattern for the control.
+
+### Conclusions
+
+ - The DNA fingerprinting using AFLP showed differences in band patterns for the edited samples vs. the control, validating that chromothripsis had occurred in the experiment samples.
+ - The TRF method proved that telomere shortening manifested in the experiment samples whereas it did not occur in the control samples.
+ - The telomere bridge validation successfully proved that the fusions occurred.
+ - The TREX1 editing was conclusively validated by the Sanger sequencing data of the samples' genomic DNA. Attempts to validate the edits by performing sequencing on a PCR amplified experiment sample was not successful, likely due to the dominance of unedited cells mixed in the experiment sample.
+ - Clear phenotypic differences in the edited versus control cells were seen, which strongly indicated that successful editing had occurred.
