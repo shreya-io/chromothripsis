@@ -32,10 +32,7 @@ What is TREX1?
 
 #### Transfecting
 
-```mermaid
-graph LR
-A(RNP) --Lipofectamine 3000--> B(A549 Culture Plates)
-```
+![Alt text](./svgs/transfection.svg)
 
 After I left the cells to grow, they looked like this 4 days later:
 ![enter image description here](https://lh3.googleusercontent.com/qocYW5TEol94bPvueAOWj5gqC2YhyHAU0zhRDas6BBhBFEXadUJBTAIDpZ31XIZZSDq6IHHIhjRI=s500)
